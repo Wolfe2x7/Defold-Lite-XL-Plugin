@@ -3,7 +3,7 @@ local syntax = require "core.syntax"
 
 syntax.add {
   name = "Defold Script",
-  files = { "%.script$", "%.render_script$", "%.buffer$", },
+  files = { "%.script$", "%.gui_script$", "%.render_script$", "%.buffer$", },
   comment = "--",
   block_comment = { "--[[", "]]" },
   patterns = {
